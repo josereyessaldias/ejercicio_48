@@ -1,8 +1,6 @@
 # README
 
-Arreglé el diseño y la funcionalidad general del sitio. Implementé las vistas de actividades de usuarios en el Home.
-
-Heroku: https://ejercicio44.herokuapp.com
+Agregué un seed enlazado con un csv e implementé backstretch.
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
