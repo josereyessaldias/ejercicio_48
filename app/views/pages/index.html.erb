@@ -28,7 +28,7 @@
 			Categoría: <%= evento.activity.category.sustantivo %></p>
 		</div>
 		<div>
-			<img src="<%= evento.activity.photo %>">
+			<img src="<%= evento.activity.photo.normal %>">
 			<% evento.actuser_photo.each do |pho| %>
 				<img src="<%= pho.photo %>">
 			<% end %>

@@ -9,7 +9,7 @@
 #Category.create(name:"Leer",past:"leyó",sustantivo:"Libros")
 #Category.destroy_all
 #User.destroy_all
-#Activity.destroy_all
+Activity.destroy_all
 
 
 
@@ -46,5 +46,5 @@ noti.each do |i|
 	Activity.create(name:i[0].to_s,author:i[1].to_s,owner_id:i[2].to_i,category_id:i[3].to_i,remote_photo_url:i[4].to_s)
 end
 
-#Activity.create(name:'The Princess Diaries',owner_id:@user_id,category_id:@category_id,remote_photo_url:'https://upload.wikimedia.org/wikipedia/en/thumb/5/58/Princess_diaries_ver1.jpg/220px-Princess_diaries_ver1.jpg')
-#Activity.create(name:'Matrix',owner_id:@user_id,category_id:@category_id,remote_photo_url:'https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/The_Matrix_Poster.jpg/220px-The_Matrix_Poster.jpg')
+Activity.create(name:'The Princess Diaries',owner_id:@user_id,category_id:@category_id,remote_photo_url:'https://upload.wikimedia.org/wikipedia/en/thumb/5/58/Princess_diaries_ver1.jpg/220px-Princess_diaries_ver1.jpg')
+Activity.create(name:'Matrix',owner_id:@user_id,category_id:@category_id,remote_photo_url:'https://upload.wikimedia.org/wikipedia/en/thumb/c/c1/The_Matrix_Poster.jpg/220px-The_Matrix_Poster.jpg')
